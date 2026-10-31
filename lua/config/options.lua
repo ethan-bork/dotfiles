@@ -15,3 +15,5 @@ vim.opt.foldtext = ""
 vim.opt.foldlevel = 99      -- start with everything unfolded
 vim.opt.foldlevelstart = 99
 vim.opt.foldenable = true
+
+

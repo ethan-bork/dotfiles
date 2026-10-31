@@ -10,8 +10,8 @@ return {
         bufferline.setup {
            options = {
                 mode = "buffers",
-                style_preset = bufferline.style_preset.default,
-           }
+                -- style_preset = bufferline.style_preset.default,
+           },
         }
         vim.keymap.set("n", "<Tab>", "<cmd>BufferLineCycleNext<cr>", { desc = "Next buffer" })
         vim.keymap.set("n", "<S-Tab>", "<cmd>BufferLineCyclePrev<cr>", { desc = "Prev buffer" })
